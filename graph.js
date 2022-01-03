@@ -105,6 +105,12 @@ var chart = new Chart(ctx, {
         },
       },
     },
+    //hide legend - in case it will be shown, legendmargin plugin will work
+    plugins: {
+      legend: {
+        display: false,
+      },
+    },
   },
   plugins: [lineDataLabels, legendMargin],
 });
