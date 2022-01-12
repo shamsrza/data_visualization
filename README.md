@@ -1,1 +1,1 @@
-# data_visualization =>  chart.js
+# data_visualization with chart.js
